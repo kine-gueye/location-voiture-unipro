@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import Connexion from "./pages/Connexion";
 import Dashboard from "./pages/Dashboard";
+import Footer from './components/Footer'
 
 // Note: Si tu n'as pas créé le fichier Inscription,
 // ton collègue pourra l'ajouter plus tard ici.
@@ -20,6 +21,7 @@ function App() {
         {/* Route de secours : si l'adresse n'existe pas, on revient à l'accueil */}
         <Route path="*" element={<LandingPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
