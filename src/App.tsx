@@ -4,6 +4,7 @@ import Connexion from "./pages/Connexion";   // Ton fichier de login
 import Dashboard from "./pages/Dashboard";
 import Footer from "./composants/footer";
 import Apropos from "./pages/Apropos";
+import Contact from "./pages/Contact";
 
 function AppContent() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function AppContent() {
           
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/apropos" element={<Apropos />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
 
