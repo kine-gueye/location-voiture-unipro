@@ -12,6 +12,9 @@ const BarreNavigation = () => {
       <div className="hidden md:flex space-x-8 font-medium text-gray-600">
         <Link to="/" className="hover:text-secondary transition">Accueil</Link>
         <Link to="/voitures" className="hover:text-secondary transition">Véhicules</Link>
+        <a href="/apropos" className="hover:text-blue-500 transition-colors">
+  À propos
+</a>
         <Link to="/contact" className="hover:text-secondary transition">Contact</Link>
       </div>
 

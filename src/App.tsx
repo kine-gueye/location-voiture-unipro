@@ -2,7 +2,8 @@ import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import LandingPage from "./pages/LandingPage"; // Ta page d'accueil
 import Connexion from "./pages/Connexion";   // Ton fichier de login
 import Dashboard from "./pages/Dashboard";
-import Footer from "./composants/Footer";
+import Footer from "./composants/footer";
+import Apropos from "./pages/Apropos";
 
 function AppContent() {
   const location = useLocation();
@@ -24,6 +25,7 @@ function AppContent() {
           <Route path="/dashboard" element={<Dashboard />} />
           
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/apropos" element={<Apropos />} />
         </Routes>
       </main>
 
