@@ -5,7 +5,7 @@ const BarreNavigation = () => {
     <nav className="bg-white shadow-md py-4 px-8 flex justify-between items-center">
       {/* Logo / Nom du projet */}
       <div className="text-primary font-bold text-2xl tracking-tight">
-        Auto<span className="text-secondary">Unipro</span>
+        PRO<span className="text-secondary">MOVE</span>
       </div>
 
       {/* Liens de navigation */}
