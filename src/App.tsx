@@ -3,6 +3,8 @@ import LandingPage from "./pages/LandingPage"; // Ta page d'accueil
 import Connexion from "./pages/Connexion";   // Ton fichier de login
 import Dashboard from "./pages/Dashboard";
 import Footer from "./composants/Footer";
+import Inscription from "./pages/Inscription" ;
+import ForgotPassword from "./pages/ForgotPassword" ;
 
 function AppContent() {
   const location = useLocation();
@@ -22,6 +24,10 @@ function AppContent() {
           
           {/* Page sans Footer (le Dashboard gère tout seul son affichage) */}
           <Route path="/dashboard" element={<Dashboard />} />
+
+           <Route path="/Inscription" element={< Inscription/>} /> 
+
+            <Route path="/ForgotPassword" element={<ForgotPassword />} />
           
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
