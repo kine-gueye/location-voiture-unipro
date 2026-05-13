@@ -1,5 +1,4 @@
 import { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -33,12 +32,6 @@ const Contact = () => {
       console.log("Données du formulaire simulé :", form);
     }, 1500);
 
-    /* Note pour le prof : Voici le code réel pour EmailJS (désactivé pour la simulation locale)
-       try {
-         await emailjs.sendForm("SERVICE_ID", "TEMPLATE_ID", formRef.current!, "PUBLIC_KEY");
-         setSent(true);
-       } catch (error) { alert("Erreur"); }
-    */
   };
 
   if (sent) {

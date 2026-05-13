@@ -5,16 +5,13 @@ import {
   LayoutDashboard,
   Car,
   MapPin,
-  Users,
   LogOut,
   Search,
   Bell,
   MoreHorizontal,
   Timer,
   History,
-  LayoutPanelLeft,
   Download,
-  Wallet,
 } from "lucide-react";
 
 const Dashboard: React.FC = () => {

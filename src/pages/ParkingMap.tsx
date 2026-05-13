@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Info, CheckCircle, XCircle, X } from "lucide-react";
+import { CheckCircle, X } from "lucide-react";
 import toyotaImg from "../assets/toyota.jpeg";
 
 interface Space {
