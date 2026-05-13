@@ -23,7 +23,7 @@ import ToyotaHiace from "../assets/Voituresimg/ToyotaHiace.jpg";
 import MercedesSprinter from "../assets/Voituresimg/MercedesSprinter.jpg";
 import HyundaiH1 from "../assets/Voituresimg/HyundaiH1.jpg";
 import MitsubishiL200 from "../assets/Voituresimg/MitsubishiL200.jpg";
-import LEXUSLX600 from "../assets/Voituresimg/LEXUSLX600.jpg";
+import LexusLX600 from "../assets/Voituresimg/LexusLX600.jpg";
 import heroBg from "../assets/hero-bg.jpg";
 
 export const voitures = [
@@ -195,10 +195,10 @@ export const voitures = [
   },
   {
     id: 24,
-    nom: "LEXUS LX600",
+    nom: "Lexus LX600",
     prix: "100 000 FCFA",
     categorie: "Luxe",
-    image: LEXUSLX600,
+    image: LexusLX600,
   },
 ];
 
