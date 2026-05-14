@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-6 px-6 mt-16">
@@ -18,25 +20,25 @@ const Footer = () => {
           <h3 className="text-white font-semibold text-lg mb-4">Navigation</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
             <li>
-              <a href="/" className="hover:text-blue-400 transition-colors">
+              <Link to="/" className="hover:text-blue-400 transition-colors">
                 Accueil
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/Apropos"
+              <Link
+                to="/Apropos"
                 className="hover:text-blue-400 transition-colors"
               >
                 A propos
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/Contact"
+              <Link
+                to="/Contact"
                 className="hover:text-blue-400 transition-colors"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -108,12 +110,12 @@ const Footer = () => {
         </p>
         <p className="text-gray-500 text-xs">
           Fait avec ❤️ au Sénégal
-          <a
-            href="/ConnexionAdmin"
+          <Link
+            to="/ConnexionAdmin"
             className="ml-1 hover:text-blue-400 transition-colors"
           >
             Espace Administrateur
-          </a>
+          </Link>
         </p>
       </div>
     </footer>
